@@ -2,10 +2,17 @@ This is a text file created by me
 
 
 git config --global user.name "My_name"
+git config --global user.email "My_name"
 
+git config --list       #This will display all the configurations u have done above
+
+# Now create a folder and use "git clone _link_of_repo_u_wanna_copy_in_this_folder"
 git clone https_link
 
-git status                               # To check the status, it shows "modified" if changes done and shows "untracked file" when new files are created
+# After this, git will create a folder within our folder having the entire code from that repo, now enter that folder and use "git status" to check the status, 
+# This status will tell whether u have made any changes in git or not,
 
+git status                               # To check the status, it shows "modified" if changes are made in a file and shows "untracked file" when new files are created
 
+# Now I am going to make changes in this file, now when we do "git status" we will see this as modified
 
