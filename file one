@@ -1,0 +1,11 @@
+This is a text file created by me
+
+
+git config --global user.name "My_name"
+
+git clone https_link
+
+git status                               # To check the status, it shows "modified" if changes done and shows "untracked file" when new files are created
+
+
+
