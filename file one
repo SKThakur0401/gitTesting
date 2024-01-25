@@ -16,3 +16,8 @@ git status                               # To check the status, it shows "modifi
 
 # Now I am going to make changes in this file, now when we do "git status" we will see this as modified
 
+# Now, when we do " git add README.md  " , it will "stage" the changes, which can be "commited" later,      there are two steps of saving file changes:
+    # First is "add" which will "stage" the changes, 2nd is commit which will save the changes and store it in permanent memory, u can see any of your previously commited forms of a project via history, while commiting, it is adviced to write a "msg" to remember which commit had added which functionality
+
+    # now after u have done {   git commit -m "whatever msg u want with this commit"    }
+    # Even now changes wouldn't be saved on your github website, and if u do "git status" it will tell u your branch is ahead of 'origin/main' , it means, that the changes are "commited" on the local repository!! Its not yet implemented on the "remote repository" (Which is the github website) , so to do that, u have to type "git push origin main"        then it will implemented on the "remote repository"
