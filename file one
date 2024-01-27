@@ -8,7 +8,7 @@ This is a text file created by me
 
 
 git config --global user.name "My_name"
-git config --global user.email "My_name"
+git config --global user.email "My_email"
 
 git config --list       #This will display all the configurations u have done above
 
@@ -27,6 +27,8 @@ git status                               # To check the status, it shows "modifi
 
     # now after u have done {   git commit -m "whatever msg u want with this commit"    }
     # Even now changes wouldn't be saved on your github website, and if u do "git status" it will tell u your branch is ahead of 'origin/main' , it means, that the changes are "commited" on the local repository!! Its not yet implemented on the "remote repository" (Which is the github website) , so to do that, u have to type "git push origin main"        then it will implemented on the "remote repository" now necessary changes are implemented on the github :)
+
+    Here "origin" is the name of the "remote repository" on which changes will be incurred when we make changes here,  and "main" refers to the main branch as we are currently working on the main branch
 
 
     # Question: How to find whether a folder is linked to GITHUB?
