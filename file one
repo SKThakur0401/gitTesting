@@ -1,6 +1,8 @@
-GIT is a version control system : which means it is used to store changes made in a code as well as time when those changes were made etc (Like a bank remembers all our financial transactions), it remembers the previous versions of the code and u can update code by making a "commit"
+GIT is a version control system : which means it is used to store changes made in a code as well as remember time at which those changes were made etc (Like a bank remembers all our financial transactions), it remembers the previous versions of the code and u can update code by making a "commit"
 
 GITHUB is a website linked with GIT, github creates a "remote repository" on the internet, which you can allow others to access via link or public repos can be seen by anyone
+
+Your computer or VS-Code is your "local Repository" and the data present on internet on "github" is your "remote repository" whose link u use to show your projects on resume
 
 
 
