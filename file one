@@ -32,6 +32,7 @@ git status                               # To check the status, it shows "modifi
 
     Here "origin" is the name of the "remote repository" on which changes will be incurred when we make changes here,  and "main" refers to the main branch as we are currently working on the main branch
 ..
+    this line will be added
 
     # Question: How to find whether a folder is linked to GITHUB?
     # Answer  : just press "  ls -a  " in that folder if you see a " .git " file, means it is linked to github :)
